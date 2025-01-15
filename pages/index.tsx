@@ -240,7 +240,7 @@ export default function Home() {
       } else {
         setGameMessage(
           playerWins
-            ? "Nice move witching doors"
+            ? "Nice move switching doors"
             : "2/3rd chances were you would have won and nice move but hard luck"
         );
         setWhenSwitchedResult((prevValue) => {
